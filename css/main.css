@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	min-width: 1024px;
+	font-family: 'Open Sans', sans-serif;
 }
 ul{
 	padding: 0;
@@ -23,8 +24,9 @@ a {
 }
 #navbar{
 	display: flex;
-	width: 70%;
-	margin-left: 15%;
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
 	height: 36px;
 	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 	border: none;
@@ -32,22 +34,109 @@ a {
 }
 #navbar ul{
 	display: flex;
-	border: none;
-	border-radius: 50px;
+	width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
-  flex: 1;
+  height: 36px;
+  justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#navbar ul li{
+	display: flex;
+	text-align: center;
+	flex: 1;
 	height: 36px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
 
-#navbar ul li{
+#apple-logo {
+	font-size: 25px;
+}
+
+.navbar-text{
+	font-size: 13px;
+}
+
+#navbar a:link{
+	color: #F5F5F5;;
+}
+
+#navbar a:visited{
+	color: #F5F5F5;;
+}
+
+.navbar-border-right{
+	border-right-style: solid;
+	border-width: thin;
+	border-color: #000;
+	border-radius: 0;
+}
+
+#navbar-input {
+	width: 70%;
+	color: white;
+	font-size: 12px;
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: #666;
+	background: url("../img/search-wt.png") no-repeat;
+	background-size: 18px 18px;
+	padding-left: 20px;
+}
+
+#main-text {
+	display: flex;
+	flex-direction: column;
+	font-weight: lighter;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#main-text-title {
+	color: #fff;
+	font-size: 55px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.main-text-fill {
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#main-text-link{
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 
-#navbar ul li a{
+#main-text-link img{
+	height: 33px;
+	width: auto;
+	padding-left: 10px;
+}
+#main-text-link a:link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+#main-text-link a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#main-text-link a:visited {
 	color: #fff;
 }
