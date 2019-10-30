@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1024px;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+main {
+	padding: 0;
+	margin: 0;
+	background: url("../img/main-background.jpg") bottom no-repeat;
+	width: 100%;
+	height: 540px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+#header-main{
+	padding-top: 85px;
+}
+#navbar{
+	display: flex;
+	width: 70%;
+	margin-left: 15%;
+	height: 36px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+	border: none;
+	border-radius: 5px;
+}
+#navbar ul{
+	display: flex;
+	border: none;
+	border-radius: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+	height: 36px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#navbar ul li{
+	text-align: center;
+}
+
+#navbar ul li a{
+	color: #fff;
+}
