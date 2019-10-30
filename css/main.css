@@ -140,3 +140,19 @@ a {
 #main-text-link a:visited {
 	color: #fff;
 }
+
+#promo {
+	display: flex;
+}
+#promo ul{
+	display: flex;
+}
+
+#promo ul li{
+	display: flex;
+	flex:1;
+}
+#promo ul li img{
+	width: 100%;
+	height: auto;
+}
