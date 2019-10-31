@@ -24,6 +24,20 @@ a {
   text-align: center;
 }
 
+#promo ul li {
+  display: flex;
+  flex: 1;
+}
+
+#bottom-footer ul li {
+  display: flex;
+  flex: 1;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 #header-main {
   padding-top: 85px;
 }
@@ -53,7 +67,6 @@ a {
 
 #navbar ul li {
   display: flex;
-  text-align: center;
   flex: 1;
   height: 36px;
   justify-content: center;
@@ -63,7 +76,7 @@ a {
 
 #navbar ul li:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #apple-logo {
@@ -93,7 +106,6 @@ a {
   width: 70%;
   color: #fff;
   font-size: 12px;
-  background-color: transparent;
   border-radius: 10px;
   border-color: #666;
   background: url("../img/search-wt.png") no-repeat;
@@ -160,11 +172,6 @@ a {
 
 #promo ul {
   display: flex;
-}
-
-#promo ul li {
-  display: flex;
-  flex: 1;
 }
 
 #promo ul li img {
@@ -248,15 +255,6 @@ a {
 #bottom-footer ul {
   display: flex;
   flex: 1 40%;
-}
-
-#bottom-footer ul li {
-  display: flex;
-  flex: 1;
-  font-size: 10px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 
 #bottom-footer ul li a:link {
