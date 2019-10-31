@@ -61,9 +61,9 @@ a {
   text-align: center;
 }
 
-#navbar ul li:hover{
+#navbar ul li:hover {
   cursor: pointer;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, .3);
 }
 
 #apple-logo {
