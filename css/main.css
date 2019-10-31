@@ -44,7 +44,7 @@ a {
 
 #navbar {
   display: flex;
-  width: 72%;
+  width: 78%;
   margin-left: auto;
   margin-right: auto;
   height: 36px;
@@ -181,7 +181,7 @@ a {
 
 #div-footer {
   display: flex;
-  width: 74%;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
@@ -199,13 +199,13 @@ a {
 }
 
 #left-footer {
-  flex: 1 50%;
-  font-size: 10px;
+  flex: 1 45%;
+  font-size: 9px;
 }
 
 #right-footer {
-  flex: 1 50%;
-  font-size: 10px;
+  flex: 1 55%;
+  font-size: 9px;
 }
 
 #right-footer ul {
@@ -239,8 +239,8 @@ a {
 }
 
 #bottom-footer {
-  width: 30%;
-  margin-left: 16%;
+  width: 36%;
+  margin-left: 10%;
   display: flex;
   text-align: center;
   align-items: center;
